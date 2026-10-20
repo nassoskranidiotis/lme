@@ -1,797 +1,1193 @@
 {
-  "updated": "2026-10-20T05:01:13.877Z",
+  "updated": "2026-10-20T12:03:11.133Z",
   "data": [
     {
       "timestamp": "2026-01-02T00:00:00.000Z",
-      "lmelead": 1676.86
+      "lmelead": 1676.86,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-05T00:00:00.000Z",
-      "lmelead": 1674.78
+      "lmelead": 1674.78,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-06T00:00:00.000Z",
-      "lmelead": 1711.17
+      "lmelead": 1711.17,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-07T00:00:00.000Z",
-      "lmelead": 1731.21
+      "lmelead": 1731.21,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-08T00:00:00.000Z",
-      "lmelead": 1721.02
+      "lmelead": 1721.02,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-09T00:00:00.000Z",
-      "lmelead": 1714.98
+      "lmelead": 1714.98,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-12T00:00:00.000Z",
-      "lmelead": 1730.67
+      "lmelead": 1730.67,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-13T00:00:00.000Z",
-      "lmelead": 1733.05
+      "lmelead": 1733.05,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-14T00:00:00.000Z",
-      "lmelead": 1740.94
+      "lmelead": 1740.94,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-15T00:00:00.000Z",
-      "lmelead": 1757.95
+      "lmelead": 1757.95,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-16T00:00:00.000Z",
-      "lmelead": 1738.97
+      "lmelead": 1738.97,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-19T00:00:00.000Z",
-      "lmelead": 1728.22
+      "lmelead": 1728.22,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-20T00:00:00.000Z",
-      "lmelead": 1690.86
+      "lmelead": 1690.86,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-21T00:00:00.000Z",
-      "lmelead": 1699.44
+      "lmelead": 1699.44,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-22T00:00:00.000Z",
-      "lmelead": 1690.14
+      "lmelead": 1690.14,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-23T00:00:00.000Z",
-      "lmelead": 1692.42
+      "lmelead": 1692.42,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-26T00:00:00.000Z",
-      "lmelead": 1690.15
+      "lmelead": 1690.15,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-27T00:00:00.000Z",
-      "lmelead": 1652.57
+      "lmelead": 1652.57,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-28T00:00:00.000Z",
-      "lmelead": 1651.78
+      "lmelead": 1651.78,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-29T00:00:00.000Z",
-      "lmelead": 1677.48
+      "lmelead": 1677.48,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-01-30T00:00:00.000Z",
-      "lmelead": 1641.09
+      "lmelead": 1641.09,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-02T00:00:00.000Z",
-      "lmelead": 1635.98
+      "lmelead": 1635.98,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-03T00:00:00.000Z",
-      "lmelead": 1635.98
+      "lmelead": 1635.98,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-04T00:00:00.000Z",
-      "lmelead": 1618.03
+      "lmelead": 1618.03,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-05T00:00:00.000Z",
-      "lmelead": 1613.38
+      "lmelead": 1613.38,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-06T00:00:00.000Z",
-      "lmelead": 1613.68
+      "lmelead": 1613.68,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-09T00:00:00.000Z",
-      "lmelead": 1599.43
+      "lmelead": 1599.43,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-10T00:00:00.000Z",
-      "lmelead": 1605.83
+      "lmelead": 1605.83,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-11T00:00:00.000Z",
-      "lmelead": 1631.81
+      "lmelead": 1631.81,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-12T00:00:00.000Z",
-      "lmelead": 1642.18
+      "lmelead": 1642.18,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-13T00:00:00.000Z",
-      "lmelead": 1615.92
+      "lmelead": 1615.92,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-16T00:00:00.000Z",
-      "lmelead": 1605.08
+      "lmelead": 1605.08,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-17T00:00:00.000Z",
-      "lmelead": 1605.11
+      "lmelead": 1605.11,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-18T00:00:00.000Z",
-      "lmelead": 1612.16
+      "lmelead": 1612.16,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-19T00:00:00.000Z",
-      "lmelead": 1622.7
+      "lmelead": 1622.7,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-20T00:00:00.000Z",
-      "lmelead": 1614.56
+      "lmelead": 1614.56,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-23T00:00:00.000Z",
-      "lmelead": 1618.78
+      "lmelead": 1618.78,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-24T00:00:00.000Z",
-      "lmelead": 1614.36
+      "lmelead": 1614.36,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-25T00:00:00.000Z",
-      "lmelead": 1622.29
+      "lmelead": 1622.29,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-02-26T00:00:00.000Z",
-      "lmelead": 1648.56
+      "lmelead": 1648.56,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-02T00:00:00.000Z",
-      "lmelead": 1654.42
+      "lmelead": 1654.42,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-03T00:00:00.000Z",
-      "lmelead": 1639.62
+      "lmelead": 1639.62,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-04T00:00:00.000Z",
-      "lmelead": 1635.18
+      "lmelead": 1635.18,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-05T00:00:00.000Z",
-      "lmelead": 1644.14
+      "lmelead": 1644.14,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-06T00:00:00.000Z",
-      "lmelead": 1637.65
+      "lmelead": 1637.65,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-09T00:00:00.000Z",
-      "lmelead": 1634.27
+      "lmelead": 1634.27,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-10T00:00:00.000Z",
-      "lmelead": 1627.26
+      "lmelead": 1627.26,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-11T00:00:00.000Z",
-      "lmelead": 1630.41
+      "lmelead": 1630.41,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-12T00:00:00.000Z",
-      "lmelead": 1643.7
+      "lmelead": 1643.7,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-13T00:00:00.000Z",
-      "lmelead": 1642.93
+      "lmelead": 1642.93,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-16T00:00:00.000Z",
-      "lmelead": 1614.12
+      "lmelead": 1614.12,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-17T00:00:00.000Z",
-      "lmelead": 1636.47
+      "lmelead": 1636.47,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-18T00:00:00.000Z",
-      "lmelead": 1632.96
+      "lmelead": 1632.96,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-19T00:00:00.000Z",
-      "lmelead": 1589.14
+      "lmelead": 1589.14,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-20T00:00:00.000Z",
-      "lmelead": 1611.98
+      "lmelead": 1611.98,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-23T00:00:00.000Z",
-      "lmelead": 1606.3
+      "lmelead": 1606.3,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-24T00:00:00.000Z",
-      "lmelead": 1597.6
+      "lmelead": 1597.6,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-25T00:00:00.000Z",
-      "lmelead": 1626.89
+      "lmelead": 1626.89,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-26T00:00:00.000Z",
-      "lmelead": 1602.87
+      "lmelead": 1602.87,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-27T00:00:00.000Z",
-      "lmelead": 1610.13
+      "lmelead": 1610.13,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-03-30T00:00:00.000Z",
-      "lmelead": 1626.7
+      "lmelead": 1626.7,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-01T00:00:00.000Z",
-      "lmelead": 1632.58
+      "lmelead": 1632.58,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-02T00:00:00.000Z",
-      "lmelead": 1640.67
+      "lmelead": 1640.67,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-07T00:00:00.000Z",
-      "lmelead": 1641.22
+      "lmelead": 1641.22,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-08T00:00:00.000Z",
-      "lmelead": 1646.23
+      "lmelead": 1646.23,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-09T00:00:00.000Z",
-      "lmelead": 1618.38
+      "lmelead": 1618.38,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-10T00:00:00.000Z",
-      "lmelead": 1605.8
+      "lmelead": 1605.8,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-13T00:00:00.000Z",
-      "lmelead": 1603.03
+      "lmelead": 1603.03,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-14T00:00:00.000Z",
-      "lmelead": 1601.39
+      "lmelead": 1601.39,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-15T00:00:00.000Z",
-      "lmelead": 1631.49
+      "lmelead": 1631.49,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-16T00:00:00.000Z",
-      "lmelead": 1627.48
+      "lmelead": 1627.48,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-17T00:00:00.000Z",
-      "lmelead": 1656.75
+      "lmelead": 1656.75,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-19T00:00:00.000Z",
-      "lmelead": 1652.54
+      "lmelead": 1652.54,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-20T00:00:00.000Z",
-      "lmelead": 1642.304750573638
+      "lmelead": 1642.304750573638,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-21T00:00:00.000Z",
-      "lmelead": 1684.2284160435077
+      "lmelead": 1684.2284160435077,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-22T00:00:00.000Z",
-      "lmelead": 1642.096293140179
+      "lmelead": 1642.096293140179,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-23T00:00:00.000Z",
-      "lmelead": 1659.8237960824565
+      "lmelead": 1659.8237960824565,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-24T00:00:00.000Z",
-      "lmelead": 1667.9470763977806
+      "lmelead": 1667.9470763977806,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-27T00:00:00.000Z",
-      "lmelead": 1651.3370805654915
+      "lmelead": 1651.3370805654915,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-28T00:00:00.000Z",
-      "lmelead": 1658.820508431054
+      "lmelead": 1658.820508431054,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-29T00:00:00.000Z",
-      "lmelead": 1669.5154260319632
+      "lmelead": 1669.5154260319632,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-04-30T00:00:00.000Z",
-      "lmelead": 1655.2755232806492
+      "lmelead": 1655.2755232806492,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-01T00:00:00.000Z",
-      "lmelead": 1655.1782826993447
+      "lmelead": 1655.1782826993447,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-05T00:00:00.000Z",
-      "lmelead": 1682.7786808110188
+      "lmelead": 1682.7786808110188,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-06T00:00:00.000Z",
-      "lmelead": 1688.1903143585387
+      "lmelead": 1688.1903143585387,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-07T00:00:00.000Z",
-      "lmelead": 1682.1000764590942
+      "lmelead": 1682.1000764590942,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-08T00:00:00.000Z",
-      "lmelead": 1671.7661057283697
+      "lmelead": 1671.7661057283697,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-11T00:00:00.000Z",
-      "lmelead": 1679.8368595462655
+      "lmelead": 1679.8368595462655,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-12T00:00:00.000Z",
-      "lmelead": 1707.2547683923704
+      "lmelead": 1707.2547683923704,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-13T00:00:00.000Z",
-      "lmelead": 1737.5341530054645
+      "lmelead": 1737.5341530054645,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-14T00:00:00.000Z",
-      "lmelead": 1715.3846153846155
+      "lmelead": 1715.3846153846155,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-15T00:00:00.000Z",
-      "lmelead": 1715.0962861072903
+      "lmelead": 1715.0962861072903,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-18T00:00:00.000Z",
-      "lmelead": 1713.6230888163548
+      "lmelead": 1713.6230888163548,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-19T00:00:00.000Z",
-      "lmelead": 1693.6386330377895
+      "lmelead": 1693.6386330377895,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-22T00:00:00.000Z",
-      "lmelead": 1729.7576959558507
+      "lmelead": 1729.7576959558507,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-26T00:00:00.000Z",
-      "lmelead": 1736.1409540180491
+      "lmelead": 1736.1409540180491,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-28T00:00:00.000Z",
-      "lmelead": 1708.702763191874
+      "lmelead": 1708.702763191874,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-05-29T00:00:00.000Z",
-      "lmelead": 1730.7692307692307
+      "lmelead": 1730.7692307692307,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-01T00:00:00.000Z",
-      "lmelead": 1724.0491113591481
+      "lmelead": 1724.0491113591481,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-02T00:00:00.000Z",
-      "lmelead": 1740.66
+      "lmelead": 1740.66,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-03T00:00:00.000Z",
-      "lmelead": 1751.5923566878982
+      "lmelead": 1751.5923566878982,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-04T00:00:00.000Z",
-      "lmelead": 1730.8022676516064
+      "lmelead": 1730.8022676516064,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-05T00:00:00.000Z",
-      "lmelead": 1720.64
+      "lmelead": 1720.64,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-08T00:00:00.000Z",
-      "lmelead": 1723.69
+      "lmelead": 1723.69,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-09T00:00:00.000Z",
-      "lmelead": 1713.4710101097382
+      "lmelead": 1713.4710101097382,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-10T00:00:00.000Z",
-      "lmelead": 1711.450117014822
+      "lmelead": 1711.450117014822,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-11T00:00:00.000Z",
-      "lmelead": 1704.6537828234684
+      "lmelead": 1704.6537828234684,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-12T00:00:00.000Z",
-      "lmelead": 1691.151054268925
+      "lmelead": 1691.151054268925,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-15T00:00:00.000Z",
-      "lmelead": 1691.7908519252303
+      "lmelead": 1691.7908519252303,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-16T00:00:00.000Z",
-      "lmelead": 1686.2068965517242
+      "lmelead": 1686.2068965517242,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-17T08:00:00.000Z",
-      "lmelead": 1678.03
+      "lmelead": 1678.03,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-18T08:00:00.000Z",
-      "lmelead": 1697.06
+      "lmelead": 1697.06,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-19T00:00:00.000Z",
-      "lmelead": 1688.334351278248
+      "lmelead": 1688.334351278248,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-22T00:00:00.000Z",
-      "lmelead": 1684.4265874748885
+      "lmelead": 1684.4265874748885,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-23T00:00:00.000Z",
-      "lmelead": 1677.4986825926576
+      "lmelead": 1677.4986825926576,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-24T00:00:00.000Z",
-      "lmelead": 1671.810246010052
+      "lmelead": 1671.810246010052,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-25T00:00:00.000Z",
-      "lmelead": 1670.488622331981
+      "lmelead": 1670.488622331981,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-26T00:00:00.000Z",
-      "lmelead": 1649.2674796034742
+      "lmelead": 1649.2674796034742,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-29T00:00:00.000Z",
-      "lmelead": 1640.3716364273819
+      "lmelead": 1640.3716364273819,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-06-30T00:00:00.000Z",
-      "lmelead": 1619.2733017377568
+      "lmelead": 1619.2733017377568,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-01T00:00:00.000Z",
-      "lmelead": 1616.019673282979
+      "lmelead": 1616.019673282979,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-02T00:00:00.000Z",
-      "lmelead": 1603.3847772711329
+      "lmelead": 1603.3847772711329,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-03T00:00:00.000Z",
-      "lmelead": 1616.4527115535761
+      "lmelead": 1616.4527115535761,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-06T00:00:00.000Z",
-      "lmelead": 1622.8646517739817
+      "lmelead": 1622.8646517739817,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-07T00:00:00.000Z",
-      "lmelead": 1617.2483162774424
+      "lmelead": 1617.2483162774424,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-08T00:00:00.000Z",
-      "lmelead": 1623.9691173890158
+      "lmelead": 1623.9691173890158,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-09T00:00:00.000Z",
-      "lmelead": 1618.5476815398074
+      "lmelead": 1618.5476815398074,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-10T00:00:00.000Z",
-      "lmelead": 1619.1392582225333
+      "lmelead": 1619.1392582225333,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-13T00:00:00.000Z",
-      "lmelead": 1603.0801540077002
+      "lmelead": 1603.0801540077002,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-14T00:00:00.000Z",
-      "lmelead": 1580.608398351889
+      "lmelead": 1580.608398351889,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-15T00:00:00.000Z",
-      "lmelead": 1574.65825446898
+      "lmelead": 1574.65825446898,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-16T00:00:00.000Z",
-      "lmelead": 1593.4257563867818
+      "lmelead": 1593.4257563867818,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-17T00:00:00.000Z",
-      "lmelead": 1593.1758530183727
+      "lmelead": 1593.1758530183727,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-20T00:00:00.000Z",
-      "lmelead": 1601.0498687664042
+      "lmelead": 1601.0498687664042,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-21T00:00:00.000Z",
-      "lmelead": 1613.1009720641039
+      "lmelead": 1613.1009720641039,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-22T00:00:00.000Z",
-      "lmelead": 1614.2180925666198
+      "lmelead": 1614.2180925666198,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-23T00:00:00.000Z",
-      "lmelead": 1645.458534444932
+      "lmelead": 1645.458534444932,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-24T00:00:00.000Z",
-      "lmelead": 1640
+      "lmelead": 1640,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-27T00:00:00.000Z",
-      "lmelead": 1632.5634495477298
+      "lmelead": 1632.5634495477298,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-28T00:00:00.000Z",
-      "lmelead": 1632.9403484075312
+      "lmelead": 1632.9403484075312,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-29T00:00:00.000Z",
-      "lmelead": 1649.095062379195
+      "lmelead": 1649.095062379195,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-30T00:00:00.000Z",
-      "lmelead": 1623.3879400487976
+      "lmelead": 1623.3879400487976,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-07-31T00:00:00.000Z",
-      "lmelead": 1612.1027427078798
+      "lmelead": 1612.1027427078798,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-03T00:00:00.000Z",
-      "lmelead": 1585.0169080031214
+      "lmelead": 1585.0169080031214,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-04T00:00:00.000Z",
-      "lmelead": 1603.7162455500566
+      "lmelead": 1603.7162455500566,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-05T00:00:00.000Z",
-      "lmelead": 1596.9877953778239
+      "lmelead": 1596.9877953778239,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-06T00:00:00.000Z",
-      "lmelead": 1603.1526069634504
+      "lmelead": 1603.1526069634504,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-07T00:00:00.000Z",
-      "lmelead": 1595.7170105774233
+      "lmelead": 1595.7170105774233,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-10T00:00:00.000Z",
-      "lmelead": 1608.2402839089414
+      "lmelead": 1608.2402839089414,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-11T00:00:00.000Z",
-      "lmelead": 1627.8061887839126
+      "lmelead": 1627.8061887839126,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-12T00:00:00.000Z",
-      "lmelead": 1628.5516285516285
+      "lmelead": 1628.5516285516285,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-13T00:00:00.000Z",
-      "lmelead": 1609.0160381447768
+      "lmelead": 1609.0160381447768,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-14T00:00:00.000Z",
-      "lmelead": 1596.057409648971
+      "lmelead": 1596.057409648971,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-17T00:00:00.000Z",
-      "lmelead": 1597.0844475114293
+      "lmelead": 1597.0844475114293,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-18T00:00:00.000Z",
-      "lmelead": 1589.7901010624514
+      "lmelead": 1589.7901010624514,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-19T00:00:00.000Z",
-      "lmelead": 1574.5927777298973
+      "lmelead": 1574.5927777298973,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-20T00:00:00.000Z",
-      "lmelead": 1581.3794283758343
+      "lmelead": 1581.3794283758343,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-21T00:00:00.000Z",
-      "lmelead": 1587.043842406632
+      "lmelead": 1587.043842406632,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-24T00:00:00.000Z",
-      "lmelead": 1596.382960486843
+      "lmelead": 1596.382960486843,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-25T00:00:00.000Z",
-      "lmelead": 1601.2006861063467
+      "lmelead": 1601.2006861063467,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-26T00:00:00.000Z",
-      "lmelead": 1599.1087496786356
+      "lmelead": 1599.1087496786356,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-27T00:00:00.000Z",
-      "lmelead": 1608.1092689631475
+      "lmelead": 1608.1092689631475,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-08-28T00:00:00.000Z",
-      "lmelead": 1614.288167611197
+      "lmelead": 1614.288167611197,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-01T00:00:00.000Z",
-      "lmelead": 1616.4927111187785
+      "lmelead": 1616.4927111187785,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-02T00:00:00.000Z",
-      "lmelead": 1617.7232682674037
+      "lmelead": 1617.7232682674037,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-03T00:00:00.000Z",
-      "lmelead": 1610.1257103495782
+      "lmelead": 1610.1257103495782,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-04T00:00:00.000Z",
-      "lmelead": 1610.016349711729
+      "lmelead": 1610.016349711729,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-07T00:00:00.000Z",
-      "lmelead": 1613.1807622816827
+      "lmelead": 1613.1807622816827,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-08T00:00:00.000Z",
-      "lmelead": 1600.6543826416394
+      "lmelead": 1600.6543826416394,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-09T00:00:00.000Z",
-      "lmelead": 1606.5601923407178
+      "lmelead": 1606.5601923407178,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-10T00:00:00.000Z",
-      "lmelead": 1610.1403116122924
+      "lmelead": 1610.1403116122924,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-11T00:00:00.000Z",
-      "lmelead": 1599.3788819875776
+      "lmelead": 1599.3788819875776,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-14T00:00:00.000Z",
-      "lmelead": 1588.1537928645653
+      "lmelead": 1588.1537928645653,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-15T00:00:00.000Z",
-      "lmelead": 1584.9220103986136
+      "lmelead": 1584.9220103986136,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-16T00:00:00.000Z",
-      "lmelead": 1602.0806241872563
+      "lmelead": 1602.0806241872563,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-17T00:00:00.000Z",
-      "lmelead": 1622.799372494335
+      "lmelead": 1622.799372494335,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-18T00:00:00.000Z",
-      "lmelead": 1629.875229037606
+      "lmelead": 1629.875229037606,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-21T00:00:00.000Z",
-      "lmelead": 1644.9086161879895
+      "lmelead": 1644.9086161879895,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-22T00:00:00.000Z",
-      "lmelead": 1665.3581086975485
+      "lmelead": 1665.3581086975485,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-23T00:00:00.000Z",
-      "lmelead": 1652.2082018927445
+      "lmelead": 1652.2082018927445,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-24T00:00:00.000Z",
-      "lmelead": 1671.2111883191133
+      "lmelead": 1671.2111883191133,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-25T00:00:00.000Z",
-      "lmelead": 1668.4205910725245
+      "lmelead": 1668.4205910725245,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-28T00:00:00.000Z",
-      "lmelead": 1658.0219780219782
+      "lmelead": 1658.0219780219782,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-29T00:00:00.000Z",
-      "lmelead": 1652.5722339675829
+      "lmelead": 1652.5722339675829,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-09-30T00:00:00.000Z",
-      "lmelead": 1635.0982292309047
+      "lmelead": 1635.0982292309047,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-01T00:00:00.000Z",
-      "lmelead": 1624.9447147279964
+      "lmelead": 1624.9447147279964,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-02T00:00:00.000Z",
-      "lmelead": 1626.4577583904568
+      "lmelead": 1626.4577583904568,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-05T00:00:00.000Z",
-      "lmelead": 1632.6075316794575
+      "lmelead": 1632.6075316794575,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-06T00:00:00.000Z",
-      "lmelead": 1630.724174653887
+      "lmelead": 1630.724174653887,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-07T00:00:00.000Z",
-      "lmelead": 1649.3785209693283
+      "lmelead": 1649.3785209693283,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-08T00:00:00.000Z",
-      "lmelead": 1639.9749485550685
+      "lmelead": 1639.9749485550685,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-09T00:00:00.000Z",
-      "lmelead": 1647.7830314925507
+      "lmelead": 1647.7830314925507,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-12T00:00:00.000Z",
-      "lmelead": 1648.02719871164
+      "lmelead": 1648.02719871164,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-13T00:00:00.000Z",
-      "lmelead": 1662.4955309259922
+      "lmelead": 1662.4955309259922,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-14T00:00:00.000Z",
-      "lmelead": 1667.1133744304477
+      "lmelead": 1667.1133744304477,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-15T00:00:00.000Z",
-      "lmelead": 1653.283369022127
+      "lmelead": 1653.283369022127,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-16T00:00:00.000Z",
-      "lmelead": 1646.9752154215157
+      "lmelead": 1646.9752154215157,
+      "lmelead_usd": null,
+      "eurusd": null
     },
     {
       "timestamp": "2026-10-19T00:00:00.000Z",
-      "lmelead": 1652.8631222726867
+      "lmelead": 1652.8631222726867,
+      "lmelead_usd": null,
+      "eurusd": null
     }
   ]
 }
