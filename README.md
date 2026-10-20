@@ -45,8 +45,10 @@ The `data.json` file contains:
   "updated": "2026-04-24T05:01:09.263Z",
   "data": [
     {
-      "timestamp": "2026-01-02T00:00:00.000Z",
-      "lmelead": 1676.86
+      "timestamp": "2026-10-21T00:00:00.000Z",
+      "lmelead": 0.0,
+      "lmelead_usd": 0.0,
+      "eurusd": 0.0
     }
   ]
 }
@@ -56,6 +58,11 @@ The `data.json` file contains:
 - `data`: Array of price entries
   - `timestamp`: ISO date when the price was recorded
   - `lmelead`: Lead price in EUR/tonne (cash contract, offer price)
+  - `lmelead_usd`: Lead price in USD/tonne (cash contract, offer price), as published by LME
+  - `eurusd`: EUR/USD exchange rate published by LME, used to convert USD to EUR
+
+`lmelead_usd` and `eurusd` are recorded from October 2026 onward; earlier entries have `null` for both.
+The page has a toggle to switch the chart between LME EUR, LME USD and EUR/USD.
 
 ## Data Source
 

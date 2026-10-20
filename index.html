@@ -84,9 +84,10 @@
       max-width: 900px;
       margin-bottom: 1rem;
     }
-    .range-btns, .action-btns { display: flex; gap: 0.4rem; flex-wrap: wrap; }
-    .range-btn.active { background: #2563eb; color: #fff; }
-    .range-btn.active:hover { background: #1d4ed8; }
+    .range-btns, .action-btns, .series-btns { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .series-btns { width: 100%; max-width: 900px; margin-bottom: 0.75rem; }
+    .range-btn.active, .series-btn.active { background: #2563eb; color: #fff; }
+    .range-btn.active:hover, .series-btn.active:hover { background: #1d4ed8; }
 
     .chart-wrapper {
       background: var(--card-bg);
@@ -193,7 +194,13 @@
     <h1>LME Lead Price</h1>
     <button class="toggle-btn" id="themeToggle" onclick="toggleTheme()">Light mode</button>
   </div>
-  <p class="subtitle">EUR / tonne &mdash; Cash contract, offer price</p>
+  <p class="subtitle" id="subtitle">EUR / tonne &mdash; Cash contract, offer price</p>
+
+  <div class="series-btns">
+    <button class="toggle-btn series-btn active" data-series="eur">LME EUR</button>
+    <button class="toggle-btn series-btn" data-series="usd">LME USD</button>
+    <button class="toggle-btn series-btn" data-series="fx">EUR/USD</button>
+  </div>
 
   <div class="toolbar" id="toolbar">
     <div class="range-btns">
@@ -224,7 +231,9 @@
         <thead>
           <tr>
             <th data-col="date">Date <span class="sort-icon">⇅</span></th>
-            <th data-col="price">Price (EUR/t) <span class="sort-icon">⇅</span></th>
+            <th data-col="lmelead">LME (EUR/t) <span class="sort-icon">⇅</span></th>
+            <th data-col="lmelead_usd">LME (USD/t) <span class="sort-icon">⇅</span></th>
+            <th data-col="eurusd">EUR/USD <span class="sort-icon">⇅</span></th>
           </tr>
         </thead>
         <tbody id="tableBody"></tbody>
@@ -245,8 +254,35 @@
     let tableSortCol = 'date';
     let tableSortAsc = false;
 
-    function fmt(n) {
-      return n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    // USD and EUR/USD are only recorded from Oct 2026 onward; older rows have null for them.
+    const SERIES = {
+      eur: { key: 'lmelead',     label: 'LME Lead (EUR)', unit: 'EUR / tonne', subtitle: 'EUR / tonne — Cash contract, offer price', prefix: '€', decimals: 2 },
+      usd: { key: 'lmelead_usd', label: 'LME Lead (USD)', unit: 'USD / tonne', subtitle: 'USD / tonne — Cash contract, offer price', prefix: '$', decimals: 2 },
+      fx:  { key: 'eurusd',      label: 'EUR/USD',        unit: 'USD per EUR', subtitle: 'EUR/USD exchange rate — as published by LME', prefix: '',  decimals: 4 },
+    };
+    let activeSeries = 'eur';
+
+    function hasVal(v) {
+      return typeof v === 'number' && isFinite(v);
+    }
+
+    function fmt(n, decimals = 2) {
+      return n.toLocaleString(undefined, { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+    }
+
+    function fmtSeries(n, s = SERIES[activeSeries]) {
+      return hasVal(n) ? `${s.prefix}${fmt(n, s.decimals)}` : '—';
+    }
+
+    function setSeries(series) {
+      activeSeries = series;
+      const s = SERIES[series];
+      document.querySelectorAll('.series-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.series === series);
+      });
+      document.getElementById('subtitle').textContent = s.subtitle;
+      if (window._chart) window._chart.options.scales.y.title.text = s.unit;
+      render();
     }
 
     function toggleTheme() {
@@ -306,12 +342,12 @@
       render();
     }
 
-    function buildMonthAvgs() {
+    function buildMonthAvgs(points, valueKey) {
       const buckets = {};
-      filteredData.forEach(d => {
+      points.forEach(d => {
         const key = monthKey(new Date(d.timestamp));
         if (!buckets[key]) buckets[key] = [];
-        buckets[key].push(d.lmelead);
+        buckets[key].push(d[valueKey]);
       });
       return Object.keys(buckets).sort().map(k => ({
         key: k,
@@ -322,9 +358,15 @@
     }
 
     function render() {
-      const labels = filteredData.map(d => new Date(d.timestamp));
-      const values = filteredData.map(d => d.lmelead);
-      const monthAvgs = buildMonthAvgs();
+      const s = SERIES[activeSeries];
+      const points = filteredData.filter(d => hasVal(d[s.key]));
+      const labels = points.map(d => new Date(d.timestamp));
+      const values = points.map(d => d[s.key]);
+      const monthAvgs = buildMonthAvgs(points, s.key);
+
+      document.getElementById('error').textContent = points.length === 0
+        ? `No ${s.label} data in this range yet.`
+        : '';
       const avgPoints = monthAvgs.map(m => {
         const [y, mo] = m.key.split('-');
         return { x: new Date(+y, +mo - 1, 15), y: m.avg };
@@ -344,7 +386,7 @@
                 borderColor: '#2563eb',
                 backgroundColor: 'rgba(37,99,235,0.07)',
                 borderWidth: 1.5,
-                pointRadius: filteredData.length > 90 ? 0 : 3,
+                pointRadius: points.length > 90 ? 0 : 3,
                 pointHoverRadius: 5,
                 fill: true,
                 tension: 0.3,
@@ -376,7 +418,7 @@
                 ticks: { color: textMuted },
               },
               y: {
-                title: { display: true, text: 'EUR / tonne', color: textMuted },
+                title: { display: true, text: s.unit, color: textMuted },
                 grid: { color: grid },
                 ticks: { color: textMuted },
               }
@@ -385,7 +427,7 @@
               legend: { display: true, labels: { color: textMuted } },
               tooltip: {
                 callbacks: {
-                  label: ctx => `${ctx.dataset.label}: €${fmt(ctx.parsed.y)}`
+                  label: ctx => `${ctx.dataset.label}: ${fmtSeries(ctx.parsed.y)}`
                 }
               },
               zoom: {
@@ -402,7 +444,7 @@
       } else {
         window._chart.resetZoom();
         window._chart.data.datasets[0].data = labels.map((l, i) => ({ x: l, y: values[i] }));
-        window._chart.data.datasets[0].pointRadius = filteredData.length > 90 ? 0 : 3;
+        window._chart.data.datasets[0].pointRadius = points.length > 90 ? 0 : 3;
         window._chart.data.datasets[1].data = avgPoints;
         window._chart.update();
       }
@@ -426,12 +468,12 @@
         card.innerHTML = `
           <div class="month">${monthLabel(m.key)}</div>
           <div class="card-row">
-            <div class="value">€${fmt(m.avg)}</div>
+            <div class="value">${fmtSeries(m.avg)}</div>
             <div class="change ${dir}">${pctStr}</div>
           </div>
           <div class="range-row">
-            <span>↓ €${fmt(m.min)}</span>
-            <span>↑ €${fmt(m.max)}</span>
+            <span>↓ ${fmtSeries(m.min)}</span>
+            <span>↑ ${fmtSeries(m.max)}</span>
           </div>`;
         grid.appendChild(card);
       });
@@ -451,22 +493,25 @@
         if (tableSortCol === 'date') {
           const diff = new Date(a.timestamp) - new Date(b.timestamp);
           return tableSortAsc ? diff : -diff;
-        } else {
-          return tableSortAsc ? a.lmelead - b.lmelead : b.lmelead - a.lmelead;
         }
+        // Missing values always sort last
+        const va = a[tableSortCol], vb = b[tableSortCol];
+        if (!hasVal(va) || !hasVal(vb)) return hasVal(vb) - hasVal(va);
+        return tableSortAsc ? va - vb : vb - va;
       });
       const tbody = document.getElementById('tableBody');
       tbody.innerHTML = rows.map(d => {
         const date = new Date(d.timestamp).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
-        return `<tr><td>${date}</td><td>€${fmt(d.lmelead)}</td></tr>`;
+        return `<tr><td>${date}</td><td>${fmtSeries(d.lmelead, SERIES.eur)}</td><td>${fmtSeries(d.lmelead_usd, SERIES.usd)}</td><td>${fmtSeries(d.eurusd, SERIES.fx)}</td></tr>`;
       }).join('');
     }
 
     function exportCSV() {
-      const rows = [['Date', 'Price (EUR/tonne)']];
+      const rows = [['Date', 'LME (EUR/tonne)', 'LME (USD/tonne)', 'EUR/USD']];
+      const cell = v => hasVal(v) ? v.toFixed(4) : '';
       filteredData.forEach(d => {
         const date = new Date(d.timestamp).toISOString().slice(0, 10);
-        rows.push([date, d.lmelead.toFixed(4)]);
+        rows.push([date, cell(d.lmelead), cell(d.lmelead_usd), cell(d.eurusd)]);
       });
       const csv = rows.map(r => r.join(',')).join('\n');
       const blob = new Blob([csv], { type: 'text/csv' });
@@ -482,7 +527,7 @@
       const url = window._chart.toBase64Image('image/png', 1.0);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `lme-lead-chart-${activeRange.toLowerCase()}.png`;
+      a.download = `lme-lead-${activeSeries}-chart-${activeRange.toLowerCase()}.png`;
       a.click();
     }
 
@@ -510,6 +555,10 @@
         btn.addEventListener('click', () => applyRange(btn.dataset.range));
       });
 
+      document.querySelectorAll('.series-btn').forEach(btn => {
+        btn.addEventListener('click', () => setSeries(btn.dataset.series));
+      });
+
       document.querySelectorAll('thead th').forEach(th => {
         th.addEventListener('click', () => {
           const col = th.dataset.col;
@@ -517,7 +566,7 @@
             tableSortAsc = !tableSortAsc;
           } else {
             tableSortCol = col;
-            tableSortAsc = col === 'price';
+            tableSortAsc = col !== 'date';
           }
           renderTable();
         });
